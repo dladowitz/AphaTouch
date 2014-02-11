@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (void)buttonPressed:(UIButton *)sender;
+
+@property (weak, nonatomic) UIButton *greenButton;
+@property (weak, nonatomic) UIButton *blueButton;
+
 @end
